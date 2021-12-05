@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "Rainbow Sparkle Unicorn": "github:targetarchitecture/pxt-rainbow-sparkle-unicorn#v3.3.4"
+        "Rainbow Sparkle Unicorn": "github:targetarchitecture/pxt-rainbow-sparkle-unicorn#v3.3.5"
     },
     "files": [
         "main.blocks",

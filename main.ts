@@ -16,13 +16,20 @@ RainbowSparkleUnicorn.Sound.setVolume(11)
 RainbowSparkleUnicorn.Sound.playTrack(20)
 RainbowSparkleUnicorn.Movement.moveServoBouncy(RainbowSparkleUnicorn.Movement.Pins.P8, 0, 180, 20)
 RainbowSparkleUnicorn.Movement.moveServoBouncy(RainbowSparkleUnicorn.Movement.Pins.P15, 0, 180, 20)
-// RainbowSparkleUnicorn.Light.breathe(
-// RainbowSparkleUnicorn.Light.Pins.P11,
-// 1000,
-// 1000,
-// 500,
-// 500
-// )
+RainbowSparkleUnicorn.Light.breathe(
+RainbowSparkleUnicorn.Light.Pins.P0,
+1000,
+1000,
+500,
+500
+)
+RainbowSparkleUnicorn.Light.breathe(
+RainbowSparkleUnicorn.Light.Pins.P7,
+1000,
+1000,
+500,
+500
+)
 basic.forever(function () {
     RainbowSparkleUnicorn.Dial.value(RainbowSparkleUnicorn.Dial.Dials.Dial1, randint(0, 255))
     RainbowSparkleUnicorn.Dial.value(RainbowSparkleUnicorn.Dial.Dials.Dial2, randint(0, 255))
